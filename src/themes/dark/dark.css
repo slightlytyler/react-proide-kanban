@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+html, body, :global(#root) {
+  color: #ffffff;
+  height: 100%;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Droid Sans;
+  background-color: #334455;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+a, button {
+  color: #ddeeff;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+}
+a, button:hover {
+  color: #eeffdd;
+}
+.App {
+  height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: stretch;
+  justify-content: space-around;
+}
+.Header {
+  width: 100%;
+  text-align: left;
+}
+.Welcome {
+  display: inline-block;
+  padding: 8px;
+}
+.ThemeSelector {
+  float: right;
+}
+.ThemeName {
+  border: 0;
+  padding: 8px;
+  background-color: #445566;
+  font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+.ThemeName:hover {
+  background-color: #556677;
+}
